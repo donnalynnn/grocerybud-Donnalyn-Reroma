@@ -10,17 +10,6 @@ import 'react-toastify/dist/ReactToastify.css';
 console.log(nanoid());
 
 
-// const getLocalStorage = () => {
-//   let list = localStorage.getItem('list');
-//   if (list) {
-//     list = JSON.parse(localStorage.getItem('list') || '{}');
-//   } else {
-//     const list: string[] = [];
-    
-//   } 
-//   return list;
-// };
-
 const setLocalStorage = (items) => {
   localStorage.setItem('list', JSON.stringify(items));
 };
